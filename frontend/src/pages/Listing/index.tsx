@@ -1,8 +1,10 @@
-function Form() {
+import Pagination from "components/Pagination";
+
+function Listing() {
 
     return(
-        <h1>Página de listagem</h1>
+        <Pagination />
     );
 }
 
-export default Form;
+export default Listing;
